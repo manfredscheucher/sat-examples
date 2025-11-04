@@ -175,8 +175,9 @@ class GraphPropagator(Propagator):
         check_model_calls += 1
 
         for _ in minCheck(self.adjMatrix()):
-            print("this never happens - on_assignment filters all invalid configurations")
-            exit()
+            print("this should never happens! on_assignment should filter all invalid configurations!")
+            self.pending = [-l for l in model]
+            return False
 
         return True
 
