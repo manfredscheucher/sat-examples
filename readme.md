@@ -36,7 +36,28 @@ export CADICAL=$HOME/github/cadical   # path to your CaDiCaL checkout
 
 ---
 
-## What the examples do
+## PySAT
+
+If you are new to PySAT or want a quick refresher:
+
+- 📺 Talk (YouTube): https://www.youtube.com/watch?v=_c9bVMkFqYw
+- 🧪 Interactive Colab: https://colab.research.google.com/drive/1qycPKqLiCqDC5mt5HS89npaat3bxm5bR
+- 📂 Local materials (this repo): `examples/pysat/`
+
+**Contents in `examples/pysat/`:**
+
+- ✎ `PHDSCHOOL-NOTEBOOK.ipynb` — self-test notebook (run all cells to verify your setup)
+- ✎ `01_basics.py` — basic SAT/PySAT primitives (variables, clauses, solving)
+- ✎ `02_cardinality.py` — exactly-k / at-most-k encodings via PySAT
+- ✎ `03_enumeration.py` — model enumeration patterns
+- ✎ `04_graphs.py` — tiny graph-encoding demo (PySAT)
+
+
+> The official PySAT installation guide demonstrates **conda**; using **venv** works as well (see Quick start below). For details, see the PySAT docs. 
+
+---
+
+## IPASIR-UP Examples
 
 ### 1) Enumerating k-subsets of {1..n}
 
