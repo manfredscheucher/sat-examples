@@ -7,21 +7,6 @@ A small collection of SAT modelling examples using **ipasirup** with both
 
 The goal is to provide minimal, reproducible *model enumeration* building blocks.
 
-## Repository layout
-
-This README keeps your existing repository structure. The examples live under `examples/`.
-
-```
-./
-├── LICENSE
-└── examples/
-    ├── ... (k-subset example files)
-    └── ... (graph enumeration example files)
-```
-
-> Each example directory contains its **own `Makefile`** (templates below). Adjust only file names if needed—no restructuring required.
-
-File names here are placeholders—adjust to your actual files in the repo.
 
 ---
 
@@ -29,13 +14,7 @@ File names here are placeholders—adjust to your actual files in the repo.
 
 ### Python
 
-**Requirements**
-
-* Python 3.9+
-* [PySAT](https://pysat.readthedocs.io/en/latest/installation.html)
-
-**Install**
-You can follow the official PySAT installation guide (they show **conda**). Using Python’s built-in **venv** also works fine:
+Follow the official [PySAT installation guide](https://pysat.readthedocs.io/en/latest/installation.html). Note that while they recommend **conda**, using Python’s built-in **venv** also works fine:
 
 ```bash
 python -m venv .venv
@@ -46,9 +25,7 @@ pip install python-sat[pblib,aiger]
 
 ### C++ (IPASIR with CaDiCaL)
 
-Follow the upstream build instructions:
-
-* [https://github.com/arminbiere/cadical](https://github.com/arminbiere/cadical) (see `BUILD.md`)
+Follow the upstream build instructions from [https://github.com/arminbiere/cadical](https://github.com/arminbiere/cadical) (see `BUILD.md`).
 
 Minimal build (after building CaDiCaL once):
 
