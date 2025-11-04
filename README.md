@@ -1,12 +1,7 @@
 # sat-examples
 
-A small collection of SAT modelling examples using **ipasirup** with both
-
-* **Python (PySAT)** and
-* **C++ (IPASIR + CaDiCaL/Glucose)**
-
-The goal is to provide minimal, reproducible *model enumeration* building blocks.
-
+SAT modeling examples in 
+Python (PySAT) and C++ (IPASIR/ipasirup with CaDiCaL/Glucose). Includes a PySAT intro, Jupyter notebooks for interactive learning, and scripts for reproducible, headless runs. Focused on minimal, reusable blocks for SAT modeling and model enumeration.
 
 ---
 
