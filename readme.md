@@ -38,14 +38,14 @@ export CADICAL=$HOME/github/cadical   # path to your CaDiCaL checkout
 
 ## PySAT
 
-If you are new to PySAT or want a quick refresher:
+If you are new to SAT solving, PySAT or want a quick refresher:
 
 - 📺 Talk (YouTube): [https://www.youtube.com/watch?v=_c9bVMkFqYw](https://www.youtube.com/watch?v=_c9bVMkFqYw)
 - 🧪 Interactive Colab: [https://colab.research.google.com/drive/1qycPKqLiCqDC5mt5HS89npaat3bxm5bR](https://colab.research.google.com/drive/1qycPKqLiCqDC5mt5HS89npaat3bxm5bR)
 
 **Contents in `examples/pysat/`:**
 
-- ✎ `PHDSCHOOL-NOTEBOOK.ipynb` — notebook from phdschool (same as in colab)
+- ✎ `PHDSCHOOL-NOTEBOOK.ipynb` — jupyter notebook from GD2024 - PhD School (same as in colab)
 - ✎ `example1.py ` — example 1: tiny example with pysat
 - ✎ `example2_ramsey.py ` — example 2: ramsey numbers
 - ✎ `cardinality-encodings.py ` — cardinality encodings
