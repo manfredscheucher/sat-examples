@@ -40,20 +40,21 @@ export CADICAL=$HOME/github/cadical   # path to your CaDiCaL checkout
 
 If you are new to PySAT or want a quick refresher:
 
-- 📺 Talk (YouTube): https://www.youtube.com/watch?v=_c9bVMkFqYw
-- 🧪 Interactive Colab: https://colab.research.google.com/drive/1qycPKqLiCqDC5mt5HS89npaat3bxm5bR
-- 📂 Local materials (this repo): `examples/pysat/`
+- 📺 Talk (YouTube): [https://www.youtube.com/watch?v=_c9bVMkFqYw](https://www.youtube.com/watch?v=_c9bVMkFqYw)
+- 🧪 Interactive Colab: [https://colab.research.google.com/drive/1qycPKqLiCqDC5mt5HS89npaat3bxm5bR](https://colab.research.google.com/drive/1qycPKqLiCqDC5mt5HS89npaat3bxm5bR)
 
 **Contents in `examples/pysat/`:**
 
-- ✎ `PHDSCHOOL-NOTEBOOK.ipynb` — self-test notebook (run all cells to verify your setup)
-- ✎ `01_basics.py` — basic SAT/PySAT primitives (variables, clauses, solving)
-- ✎ `02_cardinality.py` — exactly-k / at-most-k encodings via PySAT
-- ✎ `03_enumeration.py` — model enumeration patterns
-- ✎ `04_graphs.py` — tiny graph-encoding demo (PySAT)
+- ✎ `PHDSCHOOL-NOTEBOOK.ipynb` — notebook from phdschool (same as in colab)
+- ✎ `example1.py ` — example 1: tiny example with pysat
+- ✎ `example2_ramsey.py ` — example 2: ramsey numbers
+- ✎ `cardinality-encodings.py ` — cardinality encodings
+- ✎ `dpll.py ` — performance-comparison dpll and bruteforce (cadical implements CDCL)
+- ✎ `exercise1_sudoku.py ` — solution to exercise 1: sudoku completion
+- ✎ `example3_erdos_szekeres.py ` — example 3: Erdös-Szekeres numbers
 
-
-> The official PySAT installation guide demonstrates **conda**; using **venv** works as well (see Quick start below). For details, see the PySAT docs. 
+	
+				
 
 ---
 
